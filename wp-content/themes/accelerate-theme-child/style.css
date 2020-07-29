@@ -49,3 +49,33 @@ Text Domain: accelerate-theme-child
   color: $45ac9d;
   text-transform: uppercase;
 }
+
+ul.homepage-featured-work {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+li.individual-featured-work {
+  text-align: center;
+}
+
+.social-media-navigation i {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 50%;
+  background: black;
+  color: white;
+  font-size: 2em;
+}
+
+.social-media-navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
